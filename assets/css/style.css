@@ -89,7 +89,7 @@ section {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("file:///Users/ellysecarter/Desktop/projects/run-buddy/assets/images/hero-bg.jpeg");
+    background-image: url("https://ellysecarter.github.io/run-buddy/assets/images/hero-bg.jpeg");
     height: 600px;
     background-size: cover;
     background-position: center;
