@@ -89,7 +89,7 @@ section {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("https://ellysecarter.github.io/run-buddy/assets/images/hero-bg.jpeg");
+    background-image: url("https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
