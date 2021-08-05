@@ -48,6 +48,8 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+/* FOOTER */
+
 footer {
     background: #fce138;
     width: 100%;
@@ -71,6 +73,8 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+/* SECTION */
 
 section {
     padding: 60px;
@@ -124,7 +128,6 @@ section {
     background-color: #fce138;
     padding: 20px;
     border: 3px solid #024e76;
-    margin: 5px 0 15px 0;
     width: 40%;
     margin: 3.5%;
 }
@@ -151,19 +154,16 @@ section {
 .hero-form label {
     margin: 0 5px;
 }
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  } 
 /* Hero Style End */
 
-
-/* remove this entire CSS rule */
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-    display: inline-block;
-}
 
 .intro p {
     line-height: 1.7;
@@ -290,17 +290,22 @@ section {
       color: #fce138;
   }
 
+  .contact-info {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+
+  .contact-info > * {
+      flex: 1;
+      margin: 15px;
+  }
+
   .contact-info iframe {
-      width: 400px;
       height: 400px;
   }
 
   .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white;
   }
 
@@ -313,7 +318,7 @@ section {
   .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
   }
   
@@ -321,7 +326,28 @@ section {
     color: #fce138;
   }
 
-  
+  .contact-form input,
+  .contact-form textarea {
+      border: 1px solid #024e76;
+      display: block;
+      padding: 7px 15px;
+      font-size: 16px;
+      color: #024e76;
+      width: 100%;
+      margin-bottom: 15px;
+      margin-top: 5px;
+  }
+
+  .contact-form button {
+      width: 100%;
+      border: none;
+      color: #024e76;
+      background: #fce138;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 16px;
+  }
+
   /* secondary page hero */
   .hero-secondary {
     margin: 20px;
@@ -330,6 +356,17 @@ section {
     color: red;
   }
   
+
+  /* UTILITIES*/
+
+  .text-left {
+      text-align: left;
+  }
+
+  .text-right {
+      text-align: right;
+  }
+
   .flex-row {
     display: flex;
   }
